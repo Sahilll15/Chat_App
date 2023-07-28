@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "concurrently \"nodemon index.js\" \"redis-server\""
+    "start": "concurrently \"nodemon index.js\" \"redis-server\"",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
